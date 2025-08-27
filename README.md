@@ -57,6 +57,15 @@ Currently, the Gradio recommender only returns **3 book suggestions**,
 even though the dataset has **5k+ entries**.  
 This seems to be a retrieval or filtering limitation in the pipeline — needs further debugging.  
 
+## 🔑 Environment Variables  
+
+Create a `.env` file in the root of your project and add your API keys:  
+
+```bash
+GOOGLE_API_KEY = ["your-api"]  
+HUGGINGFACEHUB_API_TOKEN = ["your-api"]    
+```
+
 ## 🔮 Future Enhancements  
 - Expand recommendations beyond top-3  
 - Improve emotion-based personalization  
