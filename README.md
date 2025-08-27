@@ -1,4 +1,4 @@
-# 📚 LLM Course – Semantic Book Recommender  
+# Semantic Book Recommender 📚 
 
 This repository contains my implementation of a **Semantic Book Recommender System** as part of an LLM course project.  
 The system combines **data preprocessing, sentiment & text classification, and semantic search with embeddings** to recommend books from a dataset of 5,000+ titles.  
