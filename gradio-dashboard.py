@@ -34,7 +34,7 @@ documents = text_splitter.split_documents(raw_documents)
 
 embedding_instance = GoogleGenerativeAIEmbeddings(
     model="models/embedding-001",
-    google_api_key="AIzaSyDEsguwtmibvM2jCJ_0kg9igpqPXmAybjc"
+    google_api_key=["your-API"]
 )
 
 db_books = Chroma.from_documents(
@@ -121,4 +121,5 @@ with gr.Blocks(theme = gr.themes.Glass()) as dashboard:
 
 
 if __name__ == "__main__":
+
     dashboard.launch()
